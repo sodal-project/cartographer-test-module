@@ -1,0 +1,11 @@
+{
+  "name": "cartographer-test-module",
+  "version": "1.0.0",
+  "description": "A simple test module for consumption by cartographer core.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Sodal",
+  "license": "ISC"
+}
