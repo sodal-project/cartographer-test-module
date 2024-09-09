@@ -6,8 +6,7 @@ if (process.send) {
 }
 
 if (WebClient) {
-  process.send("WebClient is available");
-  process.send(WebClient);
+  process.send("Slack WebClient is available");
 } else {
-  process.send("No WebClient found");
+  process.send("No Slack WebClient found");
 }
