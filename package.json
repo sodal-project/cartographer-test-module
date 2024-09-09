@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Sodal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.4.0"
+  }
 }
