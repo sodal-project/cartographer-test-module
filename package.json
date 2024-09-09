@@ -4,7 +4,8 @@
   "description": "A simple test module for consumption by cartographer core.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "author": "Sodal",
   "license": "ISC"
