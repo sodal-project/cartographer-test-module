@@ -1,10 +1,13 @@
 const { WebClient } = require('@slack/web-api');
 
-console.log("Logging from the test module");
+// Check if the module is being executed as a child process
+if (process.send) {
+  process.send("Logging from the test module");
+}
 
 if (WebClient) {
-  console.log("WebClient is available");
-  console.log(WebClient);
+  process.send("WebClient is available");
+  process.send(WebClient);
 } else {
-  console.log("No WebClient found");
+  process.send("No WebClient found");
 }
